@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn5-devel
+FROM nvidia/cuda:8.0
 #FROM registry.cn-hangzhou.aliyuncs.com/873369359/cuda8.0_on_ubuntu16.04：latest
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
