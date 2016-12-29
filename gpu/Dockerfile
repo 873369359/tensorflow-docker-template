@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-runtime
+FROM nvidia/cuda:8.0-cudnn5-runtime
 #FROM registry.cn-hangzhou.aliyuncs.com/873369359/cuda8.0_on_ubuntu16.04：latest
 
 
