@@ -67,7 +67,7 @@ RUN pip3 --no-cache-dir install \
 
 # Install TensorFlow GPU version from central repo
 #RUN pip3 --no-cache-dir install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0-cp34-cp34m-linux_x86_64.whl
-RUN pip3 --no-cache-dir install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.0-cp34-cp34m-linux_x86_64.whl
+RUN pip3 --no-cache-dir install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0-cp34-cp34m-linux_x86_64.whl
 
 # Install Keras as blessed lightweight framework, sklearn for metrics, etc.
 RUN pip3 install sklearn
